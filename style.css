@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', serif;
+  color: #000;
+  background: url('images/marble.jpg') center/cover repeat;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+}
+
+.logo {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 0.5rem auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+
+.menu-card {
+  background: rgba(255,255,255,0.8);
+  padding: 1.2rem 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.menu-card:hover {
+  transform: scale(1.05);
+}
+
+.menu-section {
+  background: rgba(255,255,255,0.8);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.menu-section h2 {
+  font-size: 1.4rem;
+  margin-top: 0;
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.3rem;
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px dotted #000;
+  padding: 0.8rem 0;
+  flex-wrap: wrap;
+}
+
+.menu-section li:last-child {
+  border-bottom: none;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.menu-section li .price {
+  font-weight: bold;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.menu-section li .desc {
+  width: 100%;
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+body.cocktails-page {
+  background: url('images/cocktails.png') center/cover no-repeat fixed;
+  background-size: 400px; /* resmi tamamen gösterir */
+  background-size: 400px;
+  background-color: #fff;
+}
+body.foods-page {
+  background: url('images/foods.jpg') no-repeat center center fixed;
+  background-size: contain; /* resmi tamamen gösterir */
+  background-color: #fff;
+}
+body.drinks-page {
+  background: url('images/drinks.png') no-repeat center center fixed;
+  background-size: contain; /* resmi tamamen gösterir */
+  background-color: #fff;
+}
+body.frozen-page {
+  background: url('images/frozen.png') no-repeat center center fixed;
+  background-size: contain; /* resmi tamamen gösterir */
+  background-color: #fff;
+}
